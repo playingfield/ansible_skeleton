@@ -1,0 +1,7 @@
+---
+# main tasks file for role
+- name: "Converge state - {{ desired_state }}"
+  include_tasks: "{{ desired_state }}.yml"
+
+- name: "Verify state - {{ desired_state }}"
+  include_tasks: verify.yml
