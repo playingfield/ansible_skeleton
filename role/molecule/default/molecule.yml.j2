@@ -20,11 +20,11 @@ dependency:
     role-file: requirements.yml
 
 driver:
-  {% if lookup('pipe','uname') == 'Darwin' %}
+{% if lookup('pipe','uname') == 'Darwin' %}
   name: docker
-  {% else %}
+{% else %}
   name: podman
-  {% endif %}
+{% endif %}
 
 platforms:
   - name: ubi8
