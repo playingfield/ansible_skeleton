@@ -10,7 +10,7 @@ rules:
     level: error
   indentation:
     indent-sequences: consistent
-    space: 2
+    spaces: 2
     level: error
   line-length:
     max: 120
