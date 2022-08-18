@@ -9,4 +9,7 @@ cd ansible_skeleton
 mv ansible.cfg $HOME/.ansible.cfg
 cd ~/.ansible/roles
 ansible-galaxy role init my_role
+cd my_role && git init
+pre-commit install
+pre-commit run --all-files
 ```
