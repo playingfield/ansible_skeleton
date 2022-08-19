@@ -33,6 +33,8 @@ jsonschema==4.10.3
 lockfile==0.12.2
 MarkupSafe==2.1.1
 molecule==4.0.1
+molecule-azure==0.5.0
+molecule-docker==2.0.0
 molecule-podman==2.0.2
 onigurumacffi==1.2.0
 packaging==21.3
