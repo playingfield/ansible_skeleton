@@ -3,8 +3,9 @@
 - name: Cleanup
   hosts: all
   gather_facts: false
+  vars:
+    desired_state: "absent"
   tasks:
     - name: "Include {{ role_name }}"
       ansible.builtin.include_role:
         name: "{{ role_name }}"
-        tasks_from: absent

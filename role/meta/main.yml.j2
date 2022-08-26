@@ -1,7 +1,8 @@
 ---
+# https://docs.ansible.com/ansible/latest/galaxy/dev_guide.html
 galaxy_info:
-  author: Name
-  description: Description
+  author: {{ lookup('env','USER') }}
+  description: Ansible role {{ role_name }}
   company: Company (optional)
   role_name: {{ role_name }}
   namespace: your_namespace
