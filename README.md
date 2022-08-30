@@ -35,12 +35,12 @@ molecule test
 ```sh
 mkdir -p $HOME/git ~/.ansible/roles
 cd $HOME/git
-git clone https://github.com/playingfield/role_skeleton.git
+git clone https://github.com/playingfield/ansible_skeleton.git
 ```
 Add these lines to your ~/.ansible.cfg
 ```ini
 [galaxy]
-role_skeleton = ~/git/role_skeleton
+role_skeleton = ~/git/ansible_skeleton/role
 role_skeleton_ignore = ^.git$,^.*/.git_keep$,README.md
 ```
 
