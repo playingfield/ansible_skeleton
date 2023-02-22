@@ -32,6 +32,14 @@ molecule test
 
 # Configure first!
 
+In a codespace
+
+```bash
+cp ansible.cfg ~
+```
+
+## On your own machine
+
 ```sh
 mkdir -p $HOME/git ~/.ansible/roles
 cd $HOME/git
