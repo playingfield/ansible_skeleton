@@ -1,11 +1,12 @@
-# This is an example playbook to execute Ansible tests.
 ---
+# This playbook should remove what converge adds
 - name: Cleanup
   hosts: all
   gather_facts: false
   vars:
     desired_state: "absent"
+    role_name: "{{ lookup('env', 'MOLECULE_PROJECT_DIRECTORY') | basename }}"
   tasks:
-    - name: "Include {{ role_name }}"
+    - name: Include ach_security_role
       ansible.builtin.include_role:
         name: "{{ role_name }}"
