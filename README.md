@@ -55,7 +55,7 @@ role_skeleton_ignore = ^.git$,^.*/.git_keep$,README.md
 ## matrix testing in a generated role
 
 ```sh
-pip install --user tox
+pip3 install --user tox
 # edit tox.ini for a relevant setup
 tox
 ```
@@ -63,7 +63,7 @@ tox
 ## pre-commit hooks in a generated role
 
 ```sh
-pip install --user pre-commit tox
+pip3 install --user pre-commit
 # edit .pre-commit-config.yaml for a relevant setup
 git init
 pre-commit install
