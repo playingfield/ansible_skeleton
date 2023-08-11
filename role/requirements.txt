@@ -1,0 +1,4 @@
+molecule==4.0.1
+molecule-azure==0.5.0
+molecule-docker==2.0.0
+molecule-podman==2.0.2
