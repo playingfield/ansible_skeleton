@@ -1,3 +1,5 @@
+ansible-runner/context/
+ansible-runner/playbooks/artifacts/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
