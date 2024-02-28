@@ -1,5 +1,5 @@
 awxkit>=13.0.0
-ansible-base
+ansible-core
 ansible-tower-cli
 apache-libcloud
 beautifulsoup4
